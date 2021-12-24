@@ -1,0 +1,220 @@
+.navbar{
+    background-color: #2469a5;
+    width: auto !important  ;
+}
+
+.mandiri-logo{
+    margin-top: 5px;
+    width: 30%;
+}
+
+ul {
+    list-style-type: none;
+  }
+  
+
+.main-page{
+    font-family: "lato";
+    padding: 30px;
+}
+
+.add-employee-button{
+
+    border: none;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+
+.add-employee-button a{
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    background-color: #2469a5;
+    color: #fff;
+    text-decoration: none;
+}
+
+.add-employee-button a:hover{
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    background-color: #2469a5;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* Remove Table Sorting Arrow*/
+table.dataTable thead .sorting {
+    background-image:  none !important;
+}
+/* End of Remove Table Sorting Arrow*/
+
+.title{
+    font-size: 3em;
+    margin-bottom: 30px;
+    font-weight: lighter;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    box-sizing: border-box;
+    display: inline-block;
+    min-width: 1.5em;
+    margin-top: 0.5em;
+    padding: 0.1em 0.5em !important;
+    margin-left: 2px;
+    text-align: center;
+    text-decoration: none !important;
+    cursor: pointer;
+    *cursor: hand;
+    color: #333 !important;
+    border: 1px solid transparent;
+    border-radius: 2px;
+}
+
+table.dataTable.display tbody tr.even>.sorting_1, table.dataTable.order-column.stripe tbody tr.even>.sorting_1 {
+    background-color: #fff !important;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    border: 1px solid#a0a0a0 !important;
+    border-radius: 3px;
+    padding: 1px !important;
+    background-color: transparent;
+    margin-left: 3px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    box-sizing: border-box;
+    display: inline-block;
+    min-width: 1.5em;
+    padding: 0.5em 1em;
+    margin-left: 2px;
+    text-align: center;
+    text-decoration: none !important;
+    cursor: pointer;
+    *cursor: hand;
+    color: #fff !important;
+    border: 1px solid #0c67a0 !important;
+    border-radius: 2px;
+    background-color: #0c67a0 !important;
+}
+
+/* Current Table Button*/
+a.paginate_button.current{
+    background: #0c67a0 !important;
+    border: 1px solid #0c67a0 !important;
+}
+/* End Current Table Button*/
+
+.dataTables_wrapper .dataTables_length select {
+    border: none !important;
+}
+
+.table-link a{
+    color: #333;
+}
+
+.table-link a:hover{
+    color: #333;
+}
+
+
+/* Button Edit & Delete */
+
+.btn-center {
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.button-edit {
+    display: flex;
+}
+
+.button-right {
+    padding: 5px 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0c67a0 !important;
+    color: #fff;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.button-right:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button {
+    padding: 5px 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0c67a0 !important;
+    color: #fff;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* End of Button Edit & Delete */
+
+
+/* The Modal (background) */
+.modal {
+    padding: 50px;
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+      top: 25%;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50% !important;
+  }
+
+  .header-modal{
+      background-color: rgb(255, 217, 0);
+      margin-bottom: 20px;
+  }
+
+  .modal-txt{
+      text-align: center;
+      font-size: 30px;
+      margin-bottom: 0px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    padding-right: 10px;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
